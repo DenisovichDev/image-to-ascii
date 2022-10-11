@@ -30,7 +30,7 @@ int main() {
 	DIBHeader bitmapInfo;
 	unsigned char* bitmapData;
 
-	bitmapData = loadBMP("images/ct.bmp", &bitmapInfo);
+	bitmapData = loadBMP("images/shiffman.bmp", &bitmapInfo);
 
 	int w = bitmapInfo.imgWidth, h = bitmapInfo.imgHeight;
 	const unsigned int nPix = w * h; // number of pixels
